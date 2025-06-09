@@ -1,12 +1,50 @@
-# React + Vite
+# 💹 React Crypto Market UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React application that showcases animated headlines and a dynamic cryptocurrency market list. Features include live-simulated price updates, animated scroll-based UI, and responsive sliders. Built with **Framer Motion**, **Swiper.js**, and **Tailwind CSS** for a sleek and performant user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔮 **Animated Header** with hover-triggered glow and scroll-in transitions.
+- 📊 **Live Market Ticker** with fake price simulations every 4 seconds.
+- 📈 **Custom Swiper Carousel** for displaying market data in categorized sections.
+- 🧠 **Smart Rank and Sorting** based on simulated live data.
+- 🎯 **Responsive Design** that works on mobile, tablet, and desktop.
+- ⚡ **Smooth Transitions** using Framer Motion and Intersection Observer.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+| Tech                  | Purpose                        |
+|-----------------------|--------------------------------|
+| React                 | Frontend library               |
+| Tailwind CSS          | Styling and utility classes    |
+| Framer Motion         | Animation and motion handling  |
+| Swiper.js             | Carousel/Slider component      |
+| React Icons           | Icon library                   |
+| Axios                 | Fetching market data (local)   |
+| React Intersection Observer | Scroll-based animation triggers |
+| Local JSON (`/constants/data.json`) | Mock coin data |
+
+---
+
+## 📂 Project Structure
+
+```bash
+.
+├── public/
+│   └── images/
+│       └── exchange.png      # Hover icon for market items
+├── src/
+│   ├── components/
+│   │   ├── AnimateText.jsx   # Animated header section
+│   │   └── MarketList.jsx    # Market card slider
+│   ├── helpers/
+│   │   └── useMarket.js      # Custom hook for market data
+│   ├── constants/
+│   │   └── data.json         # Mock coin data (name, symbol, image, etc.)
+│   ├── index.css             # Tailwind base styles
+│   └── App.jsx               # Main application entry
+└── README.md
