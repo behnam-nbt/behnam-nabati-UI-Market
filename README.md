@@ -51,8 +51,45 @@ A modern, responsive React application that showcases animated headlines and a d
 ```
 ## Getting Started
 
-1. Clone the repository
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/yourusername/react-crypto-market.git
 cd react-crypto-market
 ```
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Customization
+
+To update the mock market data, edit the JSON in:
+```bash
+/public/constants/data.json
+```
+To adjust update frequency or random price logic, edit:
+```bash
+/src/helpers/useMarket.js
+```
+
+## Acknowledgements
+- **Icons from React Icons**
+- **Animations via Framer Motion**
+- **Carousel by Swiper.js**
+
+## License
+**Feel free to fork, improve, and contribute.**
