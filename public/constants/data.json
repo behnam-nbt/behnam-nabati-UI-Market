@@ -1,0 +1,17 @@
+[
+  { "id": 1, "name": "BTCUSDT", "symbol": "BTC", "image": "/images/bitcoin.png" },
+  { "id": 2, "name": "ETHUSDT", "symbol": "ETH", "image": "/images/eth.png" },
+  { "id": 3, "name": "TONUSDT", "symbol": "TON", "image": "/images/ton.png" },
+  { "id": 4, "name": "DOGEUSDT", "symbol": "DOGE", "image": "/images/doge.png" },
+  { "id": 5, "name": "SOLUSDT", "symbol": "SOL", "image": "/images/solu.png" },
+  { "id": 6, "name": "DOGUSDT", "symbol": "DOG", "image": "/images/dog.png" },
+  { "id": 7, "name": "1000PEPEUSDT", "symbol": "1000PEPE", "image": "/images/pepe.png" },
+  { "id": 8, "name": "1000SHIBUSDT", "symbol": "1000SHIB", "image": "/images/shib.png" },
+  { "id": 9, "name": "SUIUSDT", "symbol": "SUI", "image": "/images/sui.png" },
+  { "id": 10, "name": "HMSTRUSDT", "symbol": "HMSTR", "image": "/images/hamster.png" },
+  { "id": 11, "name": "DOTUSDT", "symbol": "DOT", "image": "/images/dot.png" },
+  { "id": 12, "name": "DYDXUSDT", "symbol": "DYDX", "image": "/images/dydx.png" },
+  { "id": 13, "name": "CRVUSDT", "symbol": "CRV", "image": "/images/crv.png" },
+  { "id": 14, "name": "AAVEUSDT", "symbol": "AAVE", "image": "/images/aave.png" },
+  { "id": 15, "name": "ATOMUSDT", "symbol": "ATOM", "image": "/images/atom.png" }
+]
